@@ -1,0 +1,95 @@
+
+
+/* all selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* top-bar */
+.top-bar{
+    background-color: #000;
+    padding: 10px 150px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar a{
+    color: silver;
+    text-decoration: none;
+}
+.contact{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fa-solid {
+    color: silver;
+}
+
+
+/* nav-bar */
+.container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+/* .nav-bar{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+ul {
+display: flex;
+
+}
+ul li{
+    list-style: none;
+    margin-right: 17px;
+}
+ul li a{
+    font-size: 19px;
+}
+.search-bar{
+    padding: 10px 30px;
+    width: 350px;
+    background: lightgray;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    border-radius: 40px;
+}
+input{
+    font-size: 16px;
+    border: none;
+    background: transparent;
+}
+.search-bar .fa-solid{
+    color: #000;
+}
+.o-icon .fa-solid{
+    color: #000;
+}
+.fa-cart-shopping{
+    margin-right: 10px;
+}
+
+
+/* hero */
+.main-hero img{
+    width: 100%;
+}
+
+/* footer */
